@@ -1,0 +1,446 @@
+.headerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+   } 
+   .nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 70%;
+    background-color: #309b9a;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    font-size: large;
+   
+   }
+   .nav a{
+    text-decoration: none;
+    color: white;
+   }
+   .home{
+    display: flex;
+    flex: 2;
+    gap: 10rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+   }
+   .home h3{
+    text-align: left;
+    color: #eb4f5c;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+   }
+   .home h1{
+    text-align: left;
+    color: #309b9a;
+    font-size: 7rem;
+    margin: 0%;
+    padding: 0%;
+   }
+   .welcome{
+    position: relative;
+    top: 6rem;
+   }
+   .grid-container{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 11rem 11rem 11rem;
+    gap: 20px;
+    
+   }
+   .card{
+    border: 1px solid gray;
+    border-radius: 5%;
+    align-items: center;
+   }
+   .card img{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    left: 10%;
+   }
+   .card p{
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+   }
+
+   /* way forward page. */
+
+   .wayForward{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    /* background-color: rgb(199, 199, 245); */
+    height: 60rem;
+    width: 70rem;
+    position: relative;
+    left: 8%;
+    
+   }
+
+.leading{
+    margin-left: 25%;
+    margin-bottom: 8%;
+    height: 5rem;
+    width: 50rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.wayForward .leading h3{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    color: gray;
+}
+.wayForward .leading h1{
+    font-size: 4rem;
+    color: #eb4f5c;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: 26rem 26rem 26rem;
+    grid-template-rows: 24rem 24rem;
+    gap: 50px;
+    
+}
+.detailCard{
+    /* border: 2px solid gray; */
+    border-radius: 5%;
+    
+}
+.detailCard img{
+    margin: 10%;
+    position: relative;
+    left: 28%;
+}
+.detailCard .subject{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.detailCard .subject h1{
+    margin: 10px;
+    font-size: 70px;
+}
+.detailCard .subject h3{
+    margin: auto;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+/* blog page css. */
+
+.blog{
+    /* background-color: #309b9a; */
+    height: 65rem;
+    width: 80rem;
+    position: relative;
+    left: 10%;
+    padding: 2px;
+}
+.blog .blogTitle{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    height: 5rem;
+    width: 100%;
+    /* background-color: #eb4f5c; */
+    text-align: center;
+}
+.blog .blogTitle h1{
+    font-size: 4rem;
+    color: #eb4f5c;
+}
+.blog .containerBlog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5% ;
+    width: 100%;
+    height: 45rem;
+    /* background-color: aliceblue; */
+}
+.blog .containerBlog .blogCard{
+    width: 45%;
+    height: 40rem;
+    background-color: #F2F2F2;
+    /* border: 2px solid black; */
+    border-radius: 5%;
+}
+.blog .containerBlog .blogCard img{
+    width: 576px;
+    border-radius: 5% 5% 0% 0%;
+}
+.blog .containerBlog .blogCard h3{
+    margin-left: 8px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.blog .containerBlog .blogCard p{
+    margin-left: 8px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.blog .viewMoreButton{
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+}
+.blog button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #309b9a;
+    border: none;
+    color: white;
+}
+
+/* Happenings at RBKEI */
+
+.happen{
+    background-color: #EAF5F0;
+    height: 90rem;
+    width: 98rem;
+    position: relative;
+    /* left: 10%; */
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+}
+.happen .happenTitle{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    height: 5rem;
+    width: 100%;
+    /* background-color: #eb4f5c; */
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.happen .happenTitle h1{
+    font-size: 4rem;
+    margin: 0%;
+    color: #309b9a;
+    font-weight: 900;
+}
+.happen .happenTitle h3{
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #B88D7F;
+}
+.happen .new{
+    height: 5rem;
+    width: 100%;
+    /* background-color: #eb4f5c; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.happen .new button{
+    border: none;
+    background-color: #EAF5F0;
+    font-size: 2rem;
+    width: 50%;
+    height: 100%;
+    border-bottom: 5px solid #eb4f5c;
+}
+.happen .containerHappen{
+    width: 80%;
+    height: 60rem;
+    /* background-color: rgb(38, 129, 209); */
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 3%;
+    margin-left: 10%;
+}
+.happen .containerHappen .happenCard{
+    width: 45%;
+    height: 55rem;
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 5%;
+    padding: 2%;
+}
+.happen .containerHappen .happenCard img{
+    width: 95%;
+    border-radius: 5%;
+}
+.happen .containerHappen .happenCard button{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #309b9a;
+    color: white;
+}
+
+/* contact page */
+
+.contactContainer{
+    /* background-color: #eb4f5c; */
+    height: 25rem;
+    width: 80rem;
+    position: relative;
+    left: 10%;
+    padding-top: 5%;
+}
+.contactContainer .contact{
+    background-color: white;
+    height: 18rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.contactContainer .contact .contactDetail{
+    height: 15rem;
+    width: 25rem;
+    /* background-color: #309b9a; */
+    
+    
+}
+.contactContainer .contact .card1{
+    border: none;
+    border-right: 1px solid gray;
+}
+.contactContainer .contact .card1 .subject{
+    position: relative;
+    top: 20%;
+}
+.contactContainer .contact .card1 h3{
+    font-size: 3rem;
+    margin: 0%;
+    color: #888774;
+}
+.contactContainer .contact .card1 h1{
+    font-size: 6rem;
+    margin: 0%;
+    color: #EB4F5C;
+}
+.contactContainer .contact .card2{
+    border: none;
+    border-right: 1px solid gray;
+}
+.contactContainer .contact .card2 p{
+    font-size: 1.8rem;
+    position: relative;
+    top: 25px;
+    color: rgb(66, 66, 66);
+}
+.contactContainer .contact .card3 p{
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    margin-bottom: 10%;
+    font-weight: 600;
+    color: #EB4F5C;
+}
+
+
+/* Style the search container */
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the input field */
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the search button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #BCBBB3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the search button */
+button[type="submit"]:hover {
+    background-color: #6d6d6c;
+}
+
+
+/* footer part */
+
+.footer{
+    /* background-color: #309b9a; */
+    height: 30rem;
+    width: 80rem;
+    position: relative;
+    left: 10%;
+    padding: 2px;
+}
+.footer .containerFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    /* background-color: #EB4F5C; */
+    border: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.footer .footercard{
+    /* background-color: #BCBBB3; */
+    height: 20rem;
+    width: 25rem;
+}
+.footer .footercard img{
+    width: 25rem;
+    position: relative;
+    top: 40%;
+}
+.footer .footercard h3{
+    position: relative;
+    top: 5%;
+    font-size: 1.5rem;
+}
+.footer .footercard p{
+    position: relative;
+    top: 5%;
+}
+.footer .footercard ul{
+    position: relative;
+    
+}
+footer{
+    text-align: center;
+    margin: 40px;
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
+footer img{
+    position: relative;
+    top: 7px;
+}
